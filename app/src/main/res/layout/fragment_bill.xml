@@ -1,0 +1,288 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fdai3744.t_online20.BillActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:textSize="24sp"
+            android:layout_marginBottom="40dp"
+            android:text="@string/invoiceOverview" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="20dp"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:id="@+id/bill000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bill000"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginEnd="150dp"
+                    android:layout_marginStart="50dp"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/date000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/date000"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginEnd="130dp"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/state000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/state000"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginEnd="20dp"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="20dp"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:id="@+id/bill001"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bill001"
+                    android:textColor="@color/colorBlack"
+                    android:layout_marginEnd="150dp"
+                    android:layout_marginStart="50dp"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/date001"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/date001"
+                    android:textColor="@color/colorBlack"
+                    android:layout_marginEnd="100dp"
+                    android:textSize="17sp" />
+
+                <Button
+                    android:id="@+id/state001"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/state001"
+                    android:background="@drawable/buttonstyle"
+                    style="@style/ButtonStyle"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="20dp"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:id="@+id/bill002"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bill002"
+                    android:textColor="@color/colorBlack"
+                    android:layout_marginEnd="150dp"
+                    android:layout_marginStart="50dp"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/date002"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/date002"
+                    android:textColor="@color/colorBlack"
+                    android:layout_marginEnd="100dp"
+                    android:textSize="17sp" />
+
+                <Button
+                    android:id="@+id/state002"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/state001"
+                    android:background="@drawable/buttonstyle"
+                    style="@style/ButtonStyle"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="20dp"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:id="@+id/bill003"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bill003"
+                    android:textColor="@color/colorBlack"
+                    android:layout_marginEnd="150dp"
+                    android:layout_marginStart="50dp"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/date003"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/date003"
+                    android:textColor="@color/colorBlack"
+                    android:layout_marginEnd="100dp"
+                    android:textSize="17sp" />
+
+                <Button
+                    android:id="@+id/state003"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/state001"
+                    android:background="@drawable/buttonstyle"
+                    style="@style/ButtonStyle"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="20dp"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:id="@+id/bill004"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bill004"
+                    android:textColor="@color/colorBlack"
+                    android:layout_marginEnd="150dp"
+                    android:layout_marginStart="50dp"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/date004"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/date004"
+                    android:textColor="@color/colorBlack"
+                    android:layout_marginEnd="100dp"
+                    android:textSize="17sp" />
+
+                <Button
+                    android:id="@+id/state004"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/state002"
+                    android:background="@drawable/buttonstyle"
+                    style="@style/ButtonStyle"
+                    android:textColor="@color/colorGreen"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="20dp"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:id="@+id/bill005"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bill005"
+                    android:textColor="@color/colorBlack"
+                    android:layout_marginEnd="150dp"
+                    android:layout_marginStart="50dp"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/date005"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/date005"
+                    android:textColor="@color/colorBlack"
+                    android:layout_marginEnd="100dp"
+                    android:textSize="17sp" />
+
+                <Button
+                    android:id="@+id/state005"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/state002"
+                    android:background="@drawable/buttonstyle"
+                    style="@style/ButtonStyle"
+                    android:textColor="@color/colorGreen"
+                    android:textSize="17sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:textSize="24sp"
+            android:layout_marginBottom="50dp"
+            android:text="@string/payBill" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:textSize="24sp"
+            android:layout_gravity="center_horizontal"
+            android:labelFor="@+id/editInvoiceNumber_pay"
+            android:layout_marginBottom="10dp"
+            android:text="@string/enterInvoiceNumber" />
+
+        <EditText
+            android:id="@+id/editInvoiceNumber_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="24sp"
+            android:maxLength="12"
+            android:ems="11"
+            android:background="@drawable/edittextstyle"
+            android:textColor="@color/colorAccent"
+            android:layout_marginBottom="20dp"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/buttonstyle"
+            android:textSize="24sp"
+            style="@style/ButtonStyle"
+            android:textAllCaps="false"
+            android:text="@string/payNow" />
+    </LinearLayout>
+</ScrollView>

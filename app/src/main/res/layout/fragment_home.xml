@@ -1,0 +1,110 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context="com.example.fdai3744.t_online20.HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/welcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingPrefix"
+                android:textSize="24sp"
+                android:layout_marginEnd="9dp"
+                android:textColor="@color/colorAccent"
+                android:text="@string/welcome" />
+
+            <TextView
+                android:id="@+id/login_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textColor="@color/colorAccent"
+                android:text="@string/login_user" />
+
+            <TextView
+                android:id="@+id/exclamation_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textColor="@color/colorAccent"
+                android:text="@string/exclamation_point" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/last_seen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:text="@string/last_seen" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="500dp"
+                android:layout_height="235dp"
+                android:src="@drawable/movies000"
+                android:contentDescription="@string/movie000"
+                android:layout_weight="0.46"
+                tools:ignore="InefficientWeight" />
+        </LinearLayout>
+
+        <TextView
+        android:id="@+id/movie_recommendation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/movie_recommendation"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="246dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="500dp"
+                android:layout_height="235dp"
+                android:src="@drawable/movies001"
+                android:contentDescription="@string/movie001" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/music_recommendation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/music_recommendation"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+            <ImageView
+                android:layout_width="549dp"
+                android:layout_height="209dp"
+                android:src="@drawable/music000"
+                android:contentDescription="@string/music000"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

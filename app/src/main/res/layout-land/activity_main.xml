@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context="com.example.fdai3744.t_online20.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/title"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="top"
+        android:background="@color/colorPrimary">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:visibility="gone"
+            android:gravity="start">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/title"
+                android:contentDescription="@string/menu_title" />
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/title">
+
+        <TextView
+            android:id="@+id/loginText000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/login" />
+
+        <TextView
+            android:id="@+id/loginText001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp"
+            android:text="@string/username"
+            android:layout_gravity="start"
+            android:labelFor="@+id/name_login"
+            android:layout_marginLeft="105dp"
+            tools:ignore="RtlHardcoded" />
+
+        <EditText
+            android:id="@+id/name_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="21"
+            android:textSize="30sp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/edittextstyle"
+            android:textColor="@color/colorAccent"
+            android:layout_marginBottom="5dp"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/loginText002"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:text="@string/password"
+            android:textSize="30sp"
+            android:layout_gravity="start"
+            android:layout_marginLeft="105dp"
+            android:labelFor="@+id/password_login"
+            tools:ignore="RtlHardcoded" />
+
+        <EditText
+            android:id="@+id/password_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:ems="21"
+            android:textColor="@color/colorAccent"
+            android:background="@drawable/edittextstyle"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/loginText003"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:layout_gravity="end"
+            android:textSize="20sp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="0dp"
+            android:text="@string/forgotpass"
+            tools:ignore="RtlHardcoded" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:background="@drawable/buttonstyle"
+            android:textSize="30sp"
+            style="@style/ButtonStyle"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:text="@string/loginButton" />
+
+        <TextView
+            android:id="@+id/loginText004"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:layout_gravity="start"
+            android:textSize="20sp"
+            android:layout_marginLeft="300dp"
+            android:text="@string/loginHint000"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/loginText005"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:layout_gravity="start"
+            android:textSize="20sp"
+            android:layout_marginLeft="300dp"
+            android:text="@string/loginHint001"
+            tools:ignore="RtlHardcoded" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginLeft="300dp"
+            android:orientation="horizontal"
+            tools:ignore="RtlHardcoded">
+
+            <TextView
+                android:id="@+id/loginText006"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp"
+                android:text="@string/loginHint002" />
+
+            <TextView
+                android:id="@+id/loginText007"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:textSize="21sp"
+                android:layout_marginLeft="6dp"
+                android:text="@string/loginHint003"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/loginText008"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:layout_marginLeft="6dp"
+                android:textSize="20sp"
+                android:text="@string/loginHint004"
+                tools:ignore="RtlHardcoded" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
